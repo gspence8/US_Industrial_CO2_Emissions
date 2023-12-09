@@ -18,9 +18,9 @@ industrial['State'] = industrial['State'].astype(str)
 #industrial['State Total Year'] = pd.to_datetime(industrial['State Total Year'], format='%Y')
 
 line_chart = alt.Chart(industrial).mark_circle(size=60).encode(
-    x=alt.X('State Total Year', title='Year'),
+    x=alt.X('US Total', title='US Total Year'),
     y=alt.Y('State Total Emissions Count', title='Total Emissions Mmt'),
-    tooltip=['State Total Year', 'State Total Emissions Count']
+#    tooltip=['State Total Year', 'State Total Emissions Count']
 ).properties(
     width=600,
     height=400

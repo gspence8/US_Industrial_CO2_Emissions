@@ -17,7 +17,7 @@ tab1, tab2 = st.tabs(["Overall US CO2 Emissions", "Statewide CO2 Emissions"])
 
 with tab1:
     #read in the industrial CO2 emission data set as emissions df
-    emissions = pd.read_csv('Industrial_Data_CO2.csv', index_col=0)
+    emissions = pd.read_csv('Data/Industrial_Data_CO2.csv', index_col=0)
     #read in the US population data set as population df - make it per million by dividing by 1M and using that instead
     population = pd.read_csv('Industrial_Data_pop.csv', index_col=0)
     population = population/1000000

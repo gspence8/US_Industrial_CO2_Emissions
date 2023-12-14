@@ -14,9 +14,9 @@ The data is from the eia.gov website where the government has reported lots of d
 
 The data sources for each of the datasets I created were from:
 
-**-https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html**
+  * **https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html**
 
-**-https://www.eia.gov/environment/emissions/state/**
+  * **https://www.eia.gov/environment/emissions/state/**
 
 In order to produce a more accurate reading of CO2 emissions, I utilized population data (in Millions) to calcualte the CO2 emissions per capita. I had to readjust the columns for data analysis purposes. Doing so, I was able to create data frames and indexes in order to generate graphs with appropriate metrics for my analysis.
 

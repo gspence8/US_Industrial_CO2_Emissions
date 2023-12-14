@@ -1,5 +1,6 @@
 # US_Industrial_CO2_Emissions
 A look at how the US Industrial emissions have changed over the past 50 years. Each state and its total industrial emissions are viewable. I wanted to take a deeper dive into the industrial CO2 emissions throughout the US and at a state level per capita. Since the early 2000s the US has really started to crack down on emissions everywhere and in some extreme cases very heavy restrictions. After doing some analysis one might see these trends and large drops over time and can compare that to lws and restrictions that have been put in place.
+
 **Streamlit app**: https://us-industrial-co2-emissions-analysis.streamlit.app/
 
 The app has two pages:

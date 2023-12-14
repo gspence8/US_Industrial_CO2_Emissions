@@ -5,9 +5,9 @@ This application aims to look at how the US Industrial emissions have changed ov
 
 The app has two pages:
 
-  **Main Page**: Overview of US Industrial CO2 Emissions
+  * **Main Page**: Overview of US Industrial CO2 Emissions
 
-  **Second Page**: Contains a more in depth look at state level industrial CO2 emissions and population data.
+  * **Second Page**: Contains a more in depth look at state level industrial CO2 emissions and population data.
 
 # Data Preparation
 The data is from the eia.gov website where the government has reported lots of different CO2 emissions data within the US. In addition to the industrial CO2 emissions data I used for analysis, I also grabbed US census data from the United States Census Bureau.
